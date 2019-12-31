@@ -1,0 +1,274 @@
+.menu
+{
+    background-color: rgb(242, 240, 36);
+    box-shadow: 4px 0px 5px black;
+
+}
+.botao 
+{
+   
+    border-radius: 2px;
+    background-color: rgb(219, 218, 77);
+    
+}
+
+.cola 
+{
+    height: 100px;
+
+}
+.back3 {
+    background-image: url("../images/backgroundobra3.jpg");
+    background-position: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    
+    
+}
+.back
+{
+    
+    background-color: rgba(255,255,255, 0.4);
+    height: 654px; 
+    
+}
+.back2
+{
+
+
+    background-color: rgb(242, 240, 36) ;
+    margin-top: -1;
+    height: 120px; 
+    background-position: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+.back4
+{
+    
+    background-color: white;
+    padding-top: 100px ;
+
+}
+.QuemSomos
+{ 
+    
+    font-family: 'Passion One', cursive;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+
+}
+.fontes
+{
+    color: black;
+    font-family: 'Passion One', cursive;
+}
+.xp
+{
+    background-color:rgba(242, 240, 36, 0.8);
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 250px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    
+}
+.cor
+{
+color: white;
+}
+.quemSomosTxt
+{
+   
+    
+    font-family: 'Passion One', cursive;
+    color: black;
+    text-align: center;
+}
+.fotoPerfil 
+{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+}
+.cartao
+{
+    border-left: 5px solid rgba(242, 240, 36, 0.8)  !important;
+    
+
+}
+.textoCartao 
+{
+    font-family: 'Passion One', cursive;
+    font-size: 15px ;
+    text-align: justify;
+}
+
+.grupoCartoes
+{
+    padding-bottom: 20px;
+
+}
+.text
+{
+    margin-bottom: 60px;
+    font-size: 35px;
+    color: black;
+    text-shadow: 2px 2px rgba(242, 240, 36, 0.6);
+    font-family: 'Passion One', cursive;
+
+}
+.texto
+{
+    font-family: 'Passion One', cursive;
+    color: black;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin-top: 5px;
+}
+
+
+  /* Add a hover effect if you want */
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  
+  
+  /* Midias sociais*/
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+  }
+  .fa:hover {
+    background-color: rgb(242, 240, 36);  }
+  .conte 
+  {
+      padding-bottom: 20px;
+  }
+  .formulario
+  {
+    font-size: 20px;
+    color: black;
+    font-family: 'Passion One', cursive;
+    
+  }
+  .botaoEnviar
+  {
+    
+    background-color: white; 
+    color: black;
+    border: 2px solid rgb(242, 240, 36)!important;
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+  }
+  .botaoEnviar:hover
+  {
+    background-color: rgb(242, 240, 36); 
+    color: black;
+    border: 2px solid black !important;
+    
+  }
+  .redeSociais
+  {
+    padding-top: 40px;
+    font-family: 'Passion One', cursive;
+
+  }
+ .backFinal
+ {
+    background-color: rgb(242, 240, 36) ;
+ }
+
+ 
+@media (max-width: 800px) {
+
+    .text
+    {
+        font-size: 20px;
+        margin-bottom: -50px;
+
+    }
+    
+    .xp{
+        font-size: 40px;
+    }
+    .QuemSomos
+    {
+        font-size: 30px;
+    }
+    .back2
+    {
+        height: 100px;
+    }
+
+    .cartao1
+{
+    border-left: 5px solid rgba(242, 240, 36, 0.8)  !important;
+}
+}
+
+@media (max-width: 500px) 
+{
+
+    .text
+    {
+        margin-bottom: 60px;
+        font-size: 35px;
+    }
+
+}
+@media (min-width: 2247px) 
+{
+    .text
+    {
+        margin-bottom: 100px;
+        font-size: 80px;
+    }
+
+
+
+}
+.b:hover
+{
+    filter: blur(10px);
+
+}
